@@ -1,1 +1,27 @@
-f
+.button {
+  border: 2px solid #fff;
+  border-radius: 20px;
+  background-color: transparent;
+  color: #fff;
+  box-shadow: inset 0 0 5px 5px rgb(32, 54, 68);
+  position: relative;
+}
+
+.button:hover {
+  background-color: rgb(32, 54, 68);
+  transition: all 0.2s ease;
+}
+
+.button-x {
+  background-image: url('../../img/cross_wguijlb4cyee.svg');
+  background-size: 80% 80%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.button-o {
+  background-image: url('../../img/circle_7m9uqhbpll47.svg');
+  background-size: 80% 80%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
