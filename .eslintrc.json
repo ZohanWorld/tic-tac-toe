@@ -35,6 +35,7 @@
     "quotes": ["error", "single"],
     "no-var": "error",
     "semi": 0,
+    "no-plusplus":"off",
     "no-underscore-dangle": ["warn", { "allow": ["_base"] }],
     "react/react-in-jsx-scope": "off",
     "react/prop-types": 0,
